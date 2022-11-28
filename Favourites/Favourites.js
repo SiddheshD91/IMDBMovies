@@ -43,7 +43,7 @@
 
         for(let i=0;i<movies.length;i++){
             // fetch(`http://www.omdbapi.com/?i=tt3896198&apikey=b32dbac3&t=${movies[i]}`)
-            fetch(`http://www.omdbapi.com/?i=${movies[i]}&apikey=b32dbac3`)
+            fetch(`https://www.omdbapi.com/?i=${movies[i]}&apikey=b32dbac3`)
             .then(function(response){
                 return response.json();
             })

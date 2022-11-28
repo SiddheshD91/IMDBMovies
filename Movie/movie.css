@@ -127,13 +127,13 @@
     filter: blur(30px);
 }
 
-.container .box::before:nth-child(2),
-.container .box::after:nth-child(2)
+.container .box::before,
+.container .box::after
 {
     background: linear-gradient(315deg,#03a9f4,#ff0058);
 }
-.container .box:nth-child(3)::before,
-.container .box:nth-child(3)::after
+.container .box2::before,
+.container .box2::after
 {
     background: linear-gradient(315deg,#4dff03,#00d0ff);
 }
