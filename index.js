@@ -41,7 +41,7 @@
     }
     async function displaySuggestions(e){
         let movieName=searchBox.value;
-        const res=await fetch(`https://www.omdbapi.com/?s=${movieName}&page=1&apikey=b32dbac3`);
+        const res=await fetch(`http://www.omdbapi.com/?s=${movieName}&page=1&apikey=b32dbac3`);
         let data=await res.json();
         if(data["Response"]==='True'){
             data=data['Search'].slice(0,10);
