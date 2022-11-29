@@ -56,14 +56,12 @@
         if(movieID.length>0){
             const res=await fetch(`https://www.omdbapi.com/?i=${movieID}&apikey=b32dbac3`);
             const data=await res.json();
-            console.log("id")
             if(data.Response==='True'){renderlist(data);}
             else{alert("No Movie Found with this Name");} 
         }
         else{
             const res=await fetch(`https://www.omdbapi.com/?t=${movieName}&apikey=b32dbac3`);
             const data=await res.json();
-            console.log("id2")
             if(data.Response==='True'){renderlist(data)}
             else{alert("No Movie Found with this Name")}   
         }
