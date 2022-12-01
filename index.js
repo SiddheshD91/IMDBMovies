@@ -10,8 +10,8 @@
     localStorage.setItem("movieID","");
 
     function testJS(){
-        let b=searchBox.value;
-        localStorage.setItem("movieName",b);
+        let movieSearched=searchBox.value;
+        localStorage.setItem("movieName",movieSearched);
         return false;
     }
 
