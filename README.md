@@ -29,4 +29,4 @@ So to tackle this made an API call using imdbID of the movie selected from sugge
 
 Add to Favourites button to add movie to favourite on Movies Page
 
-Remov Button to remove movie from Favourites List.
+Remove Button to remove movie from Favourites List.
